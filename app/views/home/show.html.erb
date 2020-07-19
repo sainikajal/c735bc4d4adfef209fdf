@@ -1,0 +1,4 @@
+<p>Qustions <br> <%= @questions.question %></p>
+Answers: <% @answer.each_with_index do |ans,index| %>
+ <br> ans:<%= index+1 %>  <%= ans.answer %>
+<% end %>
